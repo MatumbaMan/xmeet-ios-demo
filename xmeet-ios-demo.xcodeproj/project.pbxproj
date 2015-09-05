@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D15303351B9B20AE0083488C /* libxmeetapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D15303341B9B20AE0083488C /* libxmeetapi.a */; };
 		D1BA1EDD1B9B063F00EFF076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1EDC1B9B063F00EFF076 /* main.m */; };
 		D1BA1EE01B9B063F00EFF076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1EDF1B9B063F00EFF076 /* AppDelegate.m */; };
 		D1BA1EE31B9B063F00EFF076 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1EE21B9B063F00EFF076 /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		D1BA1EE81B9B064000EFF076 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BA1EE71B9B064000EFF076 /* Images.xcassets */; };
 		D1BA1EEB1B9B064000EFF076 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1BA1EE91B9B064000EFF076 /* LaunchScreen.xib */; };
 		D1BA1EF71B9B064000EFF076 /* xmeet_ios_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1EF61B9B064000EFF076 /* xmeet_ios_demoTests.m */; };
+		D1BA1F131B9B0ADC00EFF076 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BA1F121B9B0ADC00EFF076 /* libicucore.dylib */; };
+		D1BA1F7C1B9B119100EFF076 /* xmeetapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1BA1F7B1B9B119100EFF076 /* xmeetapi.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D15303331B9B20540083488C /* XmeetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmeetViewController.h; sourceTree = "<group>"; };
+		D15303341B9B20AE0083488C /* libxmeetapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libxmeetapi.a; sourceTree = "<group>"; };
 		D1BA1ED71B9B063F00EFF076 /* xmeet-ios-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xmeet-ios-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BA1EDB1B9B063F00EFF076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1BA1EDC1B9B063F00EFF076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,8 @@
 		D1BA1EF01B9B064000EFF076 /* xmeet-ios-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xmeet-ios-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BA1EF51B9B064000EFF076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1BA1EF61B9B064000EFF076 /* xmeet_ios_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xmeet_ios_demoTests.m; sourceTree = "<group>"; };
+		D1BA1F121B9B0ADC00EFF076 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		D1BA1F7B1B9B119100EFF076 /* xmeetapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = xmeetapi.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15303351B9B20AE0083488C /* libxmeetapi.a in Frameworks */,
+				D1BA1F131B9B0ADC00EFF076 /* libicucore.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		D1BA1ECE1B9B063F00EFF076 = {
 			isa = PBXGroup;
 			children = (
+				D1BA1F121B9B0ADC00EFF076 /* libicucore.dylib */,
 				D1BA1ED91B9B063F00EFF076 /* xmeet-ios-demo */,
 				D1BA1EF31B9B064000EFF076 /* xmeet-ios-demoTests */,
 				D1BA1ED81B9B063F00EFF076 /* Products */,
@@ -88,6 +98,9 @@
 				D1BA1EE41B9B064000EFF076 /* Main.storyboard */,
 				D1BA1EE71B9B064000EFF076 /* Images.xcassets */,
 				D1BA1EE91B9B064000EFF076 /* LaunchScreen.xib */,
+				D15303341B9B20AE0083488C /* libxmeetapi.a */,
+				D15303331B9B20540083488C /* XmeetViewController.h */,
+				D1BA1F7B1B9B119100EFF076 /* xmeetapi.bundle */,
 				D1BA1EDA1B9B063F00EFF076 /* Supporting Files */,
 			);
 			path = "xmeet-ios-demo";
@@ -199,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1BA1F7C1B9B119100EFF076 /* xmeetapi.bundle in Resources */,
 				D1BA1EE61B9B064000EFF076 /* Main.storyboard in Resources */,
 				D1BA1EEB1B9B064000EFF076 /* LaunchScreen.xib in Resources */,
 				D1BA1EE81B9B064000EFF076 /* Images.xcassets in Resources */,
@@ -300,6 +314,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -335,6 +353,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -347,6 +369,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "xmeet-ios-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/xmeet-ios-demo",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/XmeetViewController-cftlpsrjmdmotkfrqllcevspcvru/Build/Products/Release-iphonesimulator",
+					"$(SDKROOT)/usr/lib/system",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,6 +385,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "xmeet-ios-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/xmeet-ios-demo",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/XmeetViewController-cftlpsrjmdmotkfrqllcevspcvru/Build/Products/Release-iphonesimulator",
+					"$(SDKROOT)/usr/lib/system",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -414,6 +448,7 @@
 				D1BA1EFC1B9B064000EFF076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1BA1EFD1B9B064000EFF076 /* Build configuration list for PBXNativeTarget "xmeet-ios-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +457,7 @@
 				D1BA1EFF1B9B064000EFF076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

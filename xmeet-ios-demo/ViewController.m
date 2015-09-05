@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XmeetViewController.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    XmeetViewController * xmeet = [[XmeetViewController alloc]init];
+    [xmeet setShowType:YES];
+    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:xmeet];
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 @end
