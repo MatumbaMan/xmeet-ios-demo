@@ -17,6 +17,7 @@
 		D1BA1EF71B9B064000EFF076 /* xmeet_ios_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1EF61B9B064000EFF076 /* xmeet_ios_demoTests.m */; };
 		D1BA1F131B9B0ADC00EFF076 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BA1F121B9B0ADC00EFF076 /* libicucore.dylib */; };
 		D1BA1F7C1B9B119100EFF076 /* xmeetapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1BA1F7B1B9B119100EFF076 /* xmeetapi.bundle */; };
+		E36902E81C004D9F001EDAD2 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = E36902E71C004D9F001EDAD2 /* chat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D1BA1EF61B9B064000EFF076 /* xmeet_ios_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xmeet_ios_demoTests.m; sourceTree = "<group>"; };
 		D1BA1F121B9B0ADC00EFF076 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		D1BA1F7B1B9B119100EFF076 /* xmeetapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = xmeetapi.bundle; sourceTree = "<group>"; };
+		E36902E71C004D9F001EDAD2 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		D1BA1EDA1B9B063F00EFF076 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E36902E71C004D9F001EDAD2 /* chat.png */,
 				D1BA1EDB1B9B063F00EFF076 /* Info.plist */,
 				D1BA1EDC1B9B063F00EFF076 /* main.m */,
 			);
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1BA1F7C1B9B119100EFF076 /* xmeetapi.bundle in Resources */,
+				E36902E81C004D9F001EDAD2 /* chat.png in Resources */,
 				D1BA1EE61B9B064000EFF076 /* Main.storyboard in Resources */,
 				D1BA1EEB1B9B064000EFF076 /* LaunchScreen.xib in Resources */,
 				D1BA1EE81B9B064000EFF076 /* Images.xcassets in Resources */,

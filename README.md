@@ -14,6 +14,6 @@ UINavigationController * nav = [[UINavigationController alloc]initWithRootViewCo
 XmeetViewController *xmeet = [[XmeetViewController alloc]init];
 [self.navigationController pushViewController:xmeet animated:YES];
 ```
-(注：setShowType方法为跳转方式设置，YES为presentViewController，NO为pushViewController)<br>
+(注：setShowType方法为跳转方式设置，默认为presentViewController，YES为pushViewController)<br>
 大功告成。 <br>
 [了解更多](http://meet.xpro.im)

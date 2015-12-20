@@ -5,7 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< Updated upstream
 	<string>31FAEB09-2D32-4DF3-98E9-9B177CB9F325</string>
+=======
+	<string>9851DEDA-AC56-454B-89CE-D825A654A931</string>
+>>>>>>> Stashed changes
 	<key>IDESourceControlProjectName</key>
 	<string>xmeet-ios-demo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
